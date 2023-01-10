@@ -1,0 +1,11 @@
+# FrogRiverOne
+def solution(X, A):
+    if X in A:
+       k = 0
+       for index in range(len(A)):
+           if X == A[index]:
+               k = index
+    else:
+        k = -1   
+    return k
+
